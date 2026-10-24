@@ -17,3 +17,14 @@
    - Keep C# and XAML clean, modern, and idiomatic.
    - Include meaningful comments explaining non-trivial syntax or framework quirks.
    - Point the user to the corresponding `.md` guide in `docs/` whenever introducing changes.
+
+4. **Git, Branching & Commit Guidelines**:
+   - **Branching Policy**:
+     - Never push to `main` and never commit directly to `main`.
+     - Always create and switch to a new descriptive branch (e.g., `feature/...`, `docs/...`, `chore/...`) before committing or pushing changes.
+   - **Commit Explanations**:
+     - Ensure commit messages are thorough and explain everything included in the changed files (what was changed, why, and impact).
+   - **No AI Attribution or Co-Authors**:
+     - Do not include any `Co-authored-by` lines.
+     - Do not reference or mention AI, LLMs, or automated tools in commit messages or PR descriptions.
+

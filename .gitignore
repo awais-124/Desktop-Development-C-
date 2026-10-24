@@ -1,0 +1,66 @@
+## Visual Studio temporary and cache files
+.vs/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+*.userprefs
+
+## Build results and intermediate files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+
+## Roslyn compiler / MSBuild logs & cache
+*.cache
+*.log
+[Bb]uild[Ll]og.*
+*.FileListAbsolute.txt
+
+## NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.assets.json
+
+## Test Results and Code Coverage
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## Crash Dumps and Profiler files
+*.dmp
+*.dump
+*.psess
+*.vsp
+*.vspx
+
+## Other IDEs & Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.DotSettings.user
+
+## OS Generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
